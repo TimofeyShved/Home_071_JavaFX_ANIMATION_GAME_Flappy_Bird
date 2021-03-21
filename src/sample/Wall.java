@@ -12,9 +12,9 @@ public class Wall extends Pane {
     public int height;
 
     public Wall(int height){
-        this.height = height;
-        rectangle = new Rectangle(40, height);
-        rectangle.setFill(Color.GREEN);
-        getChildren().add(rectangle);
+        this.height = height; // положение по вертикале на панеле
+        rectangle = new Rectangle(40, height); // размер
+        rectangle.setFill(Color.GREEN); // цвет
+        getChildren().add(rectangle); // добавить на панель
     }
 }
